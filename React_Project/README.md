@@ -1,4 +1,4 @@
-# Viasat PokeApp
+#  PokeApp
 
 A fun way to discuss all things web dev.
 
