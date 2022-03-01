@@ -1,0 +1,14 @@
+diff --git a/node_modules/codeceptjs/lib/helper/WebDriver.js b/node_modules/codeceptjs/lib/helper/WebDriver.js
+index 9796ee1..8efda32 100644
+--- a/node_modules/codeceptjs/lib/helper/WebDriver.js
++++ b/node_modules/codeceptjs/lib/helper/WebDriver.js
+@@ -431,9 +431,6 @@ class WebDriver extends Helper {
+       keepCookies: false,
+       keepBrowserState: false,
+       deprecationWarnings: false,
+-      timeouts: {
+-        script: 1000, // ms
+-      },
+     };
+ 
+     // override defaults with config

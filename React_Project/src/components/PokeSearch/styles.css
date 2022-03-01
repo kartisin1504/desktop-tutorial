@@ -1,0 +1,61 @@
+.poke-search-form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 200px;
+  padding-top: 40px;
+  margin-bottom: 40px;
+}
+
+.poke-search-label {
+  color: white;
+  margin-bottom: 4px;
+  font-size: 24px;
+}
+
+.poke-search-input {
+  align-self: center;
+  width: 220px;
+  min-height: 40px;
+  border-radius: 8px;
+  border-style: none;
+  font-size: 16px;
+  color: #000;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  cursor: text;
+  padding-left: 12px;
+  border: 2px solid #222222;
+}
+
+.poke-search-submit-btn:hover,
+.poke-search-submit-btn:focus-visible,
+.poke-search-submit-btn:focus,
+.poke-search-input:focus,
+.poke-search-input:hover,
+.poke-search-input:focus-visible,
+.poke-search-input:active {
+  border: 2px solid #000;
+  outline: none;
+}
+
+.poke-search-input-wrapper {
+  display: flex;
+  border-radius: 8px;
+  align-self: center;
+}
+.poke-search-submit-btn {
+  width: 90px;
+  border-style: none;
+  border-radius: 8px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: #222222;
+  color: white;
+  font-weight: 500;
+}
+.poke-search-submit-btn:hover {
+  background-color: #000;
+}

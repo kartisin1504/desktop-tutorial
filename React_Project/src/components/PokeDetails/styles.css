@@ -1,0 +1,75 @@
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.dot {
+  height: 350px;
+  width: 360px;
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.02) 0%,
+    rgba(222, 243, 244, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.02) 0%,
+    rgba(222, 243, 244, 1) 100%
+  );
+  border-radius: 50%;
+  display: inline-block;
+  z-index: 1;
+}
+
+.image {
+  position: absolute;
+  max-height: 340px;
+  max-width: 360px;
+  z-index: 4;
+}
+
+.pokedetails-pill {
+  border-radius: 500px;
+  background-color: #99c6c5;
+  min-width: 70px;
+  padding: 6px 16px 6px 16px;
+  color: #222222;
+  font-weight: 600;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.pokedetails-name {
+  font-size: 32px;
+  text-transform: capitalize;
+  letter-spacing: 3px;
+  font-weight: 500;
+  margin-top: 6px;
+}
+
+.pokedetails-info-list {
+  margin-top: 14px;
+  padding: 10px;
+  letter-spacing: 1.4px;
+  list-style: none;
+  background-color: #def3f4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+
+.pokedetails-heading {
+  margin-right: 20px;
+}
+
+.pokedetails-info-list-item {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  letter-spacing: 1.4px;
+  margin-top: 10px;
+}
